@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+      rel="stylesheet">
+
+</head>
+
+<body background = "bg_img.jfif">
+   <div class="container">
+      <div class="srh">
+         <input type="text" id="inp" value="" placeholder="Enter Location">
+         <button onclick="myFun()">Search</button>
+      </div>
+      <h2 id="city">Weather app</h2>
+      <h3 id="text1">Description:</h3>
+      <h3 id="text2">This website will provide you various details about weather and climate</h3>
+      <img id="img" src="" alt="">
+      <br>
+      <h2 id="temp"></h2>
+      <h2 id="type">Made by Jaskeerat and Yogeshwar</h2>
+   </div>
+   <div class="container1">
+      <h1 id="ap">Air Pressure: </h1>
+      <h1 id="humid">Humidity:</h1>
+      <h1 id="wind">Wind Speed: </h1>
+      <h1 id="feelslike">Feels like: </h1>
+         <h1 class="ist">Time according IST:</h1>
+         <br>
+      <h1 id="MyClockDisplay" class="clock" onload="showTime()"></h1>
+   </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
